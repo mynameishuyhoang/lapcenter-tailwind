@@ -11,16 +11,16 @@ const Slider = () => {
     return (
         <Carousel infiniteLoop={true} autoPlay={true} interval={2000}>
             <div>
-                <img src={banner1}/>
+                <img src={banner1} alt="" />
             </div>
             <div>
-                <img src={banner2} />
+                <img src={banner2} alt="" />
             </div>
             <div>
-                <img src={banner3} />
+                <img src={banner3} alt="" />
             </div>
             <div>
-                <img src={banner4} />
+                <img src={banner4} alt="" />
             </div>
         </Carousel>
     )
